@@ -1,0 +1,453 @@
+body {
+background-image: url("../img/japbg2.png");
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:#4aaaa5;
+font-size:16px;
+line-height:1.5;
+padding:0;
+margin:0;
+}
+
+.maincontent{
+    width:600px;
+    margin-left:100px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-left:25px;
+  }
+
+ .maincontent p{
+      width:300px;
+      float:right;
+      line-height:40px;
+      padding-right:20px;
+      margin-right: 30px;
+     
+  }
+
+  .aboutme{
+      text-align: center;
+  }
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header{
+    position: static;
+    background:#ffffff;
+    border:#cccccc 3px solid;
+    padding-top:30px;
+    min-height:70px;
+    margin:20px 20px 20px 20px;
+
+}
+header a{
+    color:#cccccc;
+    text-decoration:none;
+    font-size:20px;
+    text-transform: uppercase;
+ 
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0px 20px 0px 20px;
+}
+
+header .kevintomas{
+    float:left;
+    
+}
+
+
+header .kevintomas h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:20px;
+}   
+
+.sidebar{
+    width:270px;
+    background-color: #ffffff;
+    float:right;
+    position: relative;
+    right:150px;
+    bottom:300px;
+   
+}
+
+.sidebar img{
+    padding:0 10px 0 0 ; 
+    margin-left: 15px;
+
+}
+
+.sidebar h2{
+    text-align:center;
+}
+
+footer{
+position:fixed;
+left: 0;
+bottom:0;
+width: 100%;
+background-color:#666666;
+color: white;
+text-align: center;
+height:50px;
+border-top: #4aaaa5 solid 10px;    
+}
+
+.bigbox{
+    position: relative;
+    display:block;
+    height:810px;
+    width:650px;
+    background: #ffffff;
+    margin-left:100px;
+    margin-top:50px;
+    margin-bottom:100px;
+    border:2px solid #777777;
+  }
+
+  #contactme{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:30px;
+display: block;
+color:#4aaaa5;
+border-bottom: grey 2px solid;
+text-align:left;
+
+  }
+  input {
+      font-size: 15px;
+  }
+  label {
+      font-size:25px;
+  }
+
+  input[type=text]{
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea[id=message]{
+    width: 100%;
+    height:400px;
+    padding: 12px 20px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+        position: absolute;
+        bottom:-8px;
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+
+    
+    .dampa{
+        float:left;
+        margin-left: 20px;
+    }
+
+    .pdampa{
+        background-color: #4aaaa5;
+        color:#ffffff;
+        position: absolute;
+        top:210px;
+        left:20px;
+        display: inline-block;
+        width: 300px;
+        height:50px;
+        text-align: center;
+        font-size:20px;
+        
+    }
+
+    .nursing{
+        float:right;
+        margin-right:20px;
+    }
+
+    .pnursing{
+       background-color: #4aaaa5;
+       color:#ffffff;
+       position: absolute;
+       top:210px;
+       left:330px;
+       display: inline-block;
+       width: 300px;
+       height:50px;
+       text-align: center;
+       font-size:20px;
+       }
+
+       .callcenter{
+           clear: both;
+           float:left;
+           margin-left: 20px;
+           margin-top:20px;
+       }
+
+       .pcallcenter{
+           background-color: #4aaaa5;
+           color:#ffffff;
+           position: absolute;
+           top:435px;
+           left:20px;
+           display: inline-block;
+           width: 300px;
+           height:50px;
+           text-align: center;
+           font-size:20px;
+        
+       }
+
+       .anime{
+           float:right;
+           margin-right: 20px;
+           margin-top:20px; 
+       }
+
+       .panime{
+           background-color: #4aaaa5;
+           color:#ffffff;
+           position: absolute;
+           top:435px;
+           left:330px;
+           display: inline-block;
+           width: 300px;
+           height:50px;
+           text-align: center;
+           font-size:20px;
+       }
+
+       .muaythai{
+           clear: both;
+           float: left;
+           margin-top:20px;
+           margin-left:170px;
+
+       }
+
+       .pmuaythai{
+           background-color: #4aaaa5;
+           color:#ffffff;
+           position: absolute;
+           top:655px;
+           left:170px;
+           display: inline-block;
+           width: 300px;
+           height:50px;
+           text-align: center;
+           font-size:20px;
+       }
+
+      
+@media screen and (max-width:980px) {
+    .sidebar{
+     position: relative;
+     right:50px;
+    }
+
+    .maincontent{
+        width:50%;
+        overflow: visible;
+        height: 500px;
+    }
+
+    .maincontent p{
+        width:40%;
+        float: right;
+       line-height:25px;
+       padding-right:20px;
+
+    }
+    .bigbox{
+        width:70%
+    }
+       
+}
+      @media screen and (max-width:768px) {
+  
+    .maincontent{
+        width:70%;
+       
+    
+    }
+
+    .maincontent p{
+        width:40%;
+        float: right;
+       line-height:23px;
+       padding-right:20px;
+    }
+
+    .sidebar{
+       overflow: visible;
+       width:73%;
+       position: relative;
+       top:50px;
+       right:100px;
+       margin-bottom: 100px;
+     
+    }
+
+    .sidebar img{
+
+        margin-left:80px;
+    }
+    
+    .bigbox{
+        width:50%;
+        height: 1230px;
+    }
+     
+    .dampa{
+        float:left;
+        margin-left: 20px;
+    }
+
+    .pdampa{
+        clear: both;
+        float: left;
+        background-color: #4aaaa5;
+        color:#ffffff;
+    }
+
+    .nursing{
+        float:left;
+        margin-left: 20px;
+        margin-top:20px;
+    }
+
+    .pnursing{
+        position: relative;
+        left:-20px;   
+        top:-78px;
+        
+        background-color: #4aaaa5;
+        color:#ffffff;
+       
+       }
+
+       .callcenter{
+        position: relative;
+        bottom:100px;
+        
+
+       }
+        .pcallcenter{
+        position: relative;
+        top:-175px;
+        left:-20px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+        
+       }
+
+       .anime{
+        position: relative;
+        margin-left: 20px;
+        bottom:200px;
+        left:-33px;
+    }
+
+
+       .panime{
+        position: relative;
+        top:-277px;
+        left:-15px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+       }
+       .muaythai{
+        position: relative;
+        bottom:320px;
+        left:-145px;
+
+       }
+
+       .pmuaythai{
+        clear: both;
+        position: relative;
+        left:300px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+
+        
+    }
+
+    }
+
+
+@media screen and (max-width:640px) {
+
+  .sidebar img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .bigbox{
+        width:70%
+    }
+    .anime{
+        position: relative;
+        left:-90px;
+        bottom:200px;
+      
+    }
+
+
+       .panime{
+        position: relative;
+        top:-277px;
+        left:-15px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+       }
+}
+
+
+
+
+
+
+
+
+
